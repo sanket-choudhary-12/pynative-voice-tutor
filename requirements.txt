@@ -1,0 +1,22 @@
+# --- UI ---
+streamlit>=1.38
+streamlit-mic-recorder>=0.0.5
+
+# --- ASR: local, free, offline speech-to-text ---
+# faster-whisper installs its own dependencies; av + numpy are imported
+# directly by asr_utils.py, so they are listed explicitly too.
+faster-whisper>=1.0
+av
+numpy
+
+# --- TTS: free, natural-sounding voices ---
+edge-tts>=6.1
+
+# --- LLM pipeline (LangChain + Groq's free, fast inference) ---
+langchain-core>=0.3
+langchain-groq>=0.2
+groq>=0.9
+pydantic>=2.7
+
+# --- Config ---
+python-dotenv>=1.0
