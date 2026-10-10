@@ -484,7 +484,7 @@ if st.session_state.stage == "start":
     with mid:
         if st.button("▶️ Start Quiz", use_container_width=True, type="primary"):
             greeting = (
-                f"Hey there! I am  your personal Python tutor. "
+                f"Hey there! I am your personal Python tutor. "
                 "Which Python topic would you like to practice today? You can also just say "
                 "'mixed' for a general quiz."
             )
