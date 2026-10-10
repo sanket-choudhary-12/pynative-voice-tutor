@@ -1,10 +1,9 @@
 # --- UI ---
-streamlit>=1.38
-streamlit-mic-recorder>=0.0.5
+# 1.40+ is needed because the app now uses Streamlit's built-in microphone
+# widget (st.audio_input) instead of the old streamlit-mic-recorder add-on.
+streamlit>=1.40
 
 # --- ASR: local, free, offline speech-to-text ---
-# faster-whisper installs its own dependencies; av + numpy are imported
-# directly by asr_utils.py, so they are listed explicitly too.
 faster-whisper>=1.0
 av
 numpy
