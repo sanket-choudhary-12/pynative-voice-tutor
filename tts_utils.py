@@ -60,7 +60,7 @@ def text_to_mp3_bytes(text: str, voice: str = None, rate: str = None) -> bytes:
     """MAIN FUNCTION: text in -> mp3 bytes out.
 
     voice : an edge-tts voice id such as "en-GB-RyanNeural". None = config default.
-    rate  : speed text such as "+10%" or "-20%". None/invalid = config default.
+    rate  : speed text such as "+10%" or "-20%". None/invalid = config default. 
 
     Returns b"" (empty bytes) if the text is empty or if speech failed twice.
     The app treats empty bytes as "no voice this time" and carries on."""
