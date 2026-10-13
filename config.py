@@ -115,3 +115,9 @@ def tutor_name_from_label(voice_label: str) -> str:
 # Name used when no voice has been chosen yet = the name of the default voice
 # ("Aria"). While the app runs, the name always follows the selected voice.
 ASSISTANT_NAME = tutor_name_from_label(DEFAULT_VOICE_LABEL) or "Tutor"
+
+
+
+# Name used when no voice has been chosen yet = the name of the default voice
+# ("Aria"). While the app runs, the name always follows the selected voice.
+ASSISTANT_NAME = tutor_name_from_label(DEFAULT_VOICE_LABEL) or "Tutor"
