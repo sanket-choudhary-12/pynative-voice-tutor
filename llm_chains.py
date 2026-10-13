@@ -361,7 +361,7 @@ def evaluate_answer(topic: str, history: list[dict], student_answer: str) -> Qui
             'Topic: "{topic}"\n\nConversation so far:\n{history}\n\n'
             'The student\'s latest spoken answer (transcribed, may contain small transcription '
             'errors - be lenient about wording/grammar, judge the underlying content): '
-            '"{answer}"\n\nScore it, give specific feedback, then ask the next question. '
+            '"{answer}"\n\nScore it, give specific feedback, then ask the next question. ' 
             "{angle}"
         )),
     ])
